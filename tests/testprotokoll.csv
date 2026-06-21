@@ -1,0 +1,12 @@
+Datum;Tester:in;Testfall-ID;Umgebung;Ergebnis;Bemerkung
+2026-06-09;Projektteam;TF-01;Chrome-kompatibler Browser;bestanden;Login erfolgreich
+2026-06-09;Projektteam;TF-04;Chrome-kompatibler Browser;bestanden;Lernziel wurde gespeichert
+2026-06-09;Projektteam;TF-07;Chrome-kompatibler Browser;bestanden;Grobplanung sichtbar
+2026-06-09;Projektteam;TF-08;Chrome-kompatibler Browser;bestanden;Detailplanung sichtbar
+2026-06-09;Projektteam;TF-10;Chrome-kompatibler Browser;bestanden;Lernsitzung gespeichert
+2026-06-09;Projektteam;TF-11;Chrome-kompatibler Browser;bestanden;Auswertung aktualisiert
+2026-06-09;Projektteam;TF-13;Chrome-kompatibler Browser;bestanden;Exportdatei erzeugt
+2026-06-09;Projektteam;TF-15;Node 22 / npm 10;bestanden;npm run build erfolgreich
+2026-06-09;Projektteam;TF-16;Node 22 / Vitest;bestanden;isWithinPlanningHorizon und sixMonthPlans erfolgreich getestet
+2026-06-09;Projektteam;TF-17;Node 22 / Vitest;bestanden;autoReminder=false liefert keine Hinweise
+2026-06-09;Projektteam;TF-18;Node 22 / Vitest;bestanden;reminderMinutes=0 löst keinen Lernblock-Hinweis aus

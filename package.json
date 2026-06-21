@@ -1,0 +1,36 @@
+{
+  "name": "lernzeit-manager-ms4",
+  "version": "2.1.0-ms4",
+  "description": "Moderner MS4-Prototyp für Thema A: Lernzeit-Manager mit React, Vite und TypeScript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "1.17.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.0.2",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "6.0.3",
+    "vite": "8.0.16",
+    "vitest": "4.1.8"
+  },
+  "keywords": [
+    "ISEF01",
+    "MS4",
+    "Lernzeit-Manager",
+    "React",
+    "Vite",
+    "TypeScript"
+  ],
+  "license": "UNLICENSED"
+}

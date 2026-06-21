@@ -1,0 +1,19 @@
+ID;Kategorie;Testfall;Vorbedingung;Schritte;Erwartetes Ergebnis;Status
+TF-01;Login;Anmeldung Student-Account;App geöffnet;student.demo / Lernzeit2026! eingeben und anmelden;Dashboard wird angezeigt;bestanden
+TF-02;Login;Anmeldung Tutor-Account;App geöffnet;tutor.demo / Tutor2026! eingeben und anmelden;Dashboard wird angezeigt;bestanden
+TF-03;Login;Fehlerhafte Anmeldung;App geöffnet;falsches Passwort eingeben;Fehlermeldung wird angezeigt;bestanden
+TF-04;Lernziele;Neues Lernziel anlegen;eingeloggt;Bereich Lernziele öffnen, Pflichtfelder ausfüllen, speichern;Ziel erscheint in Liste und Dashboard;bestanden
+TF-05;Lernziele;Ziel als erreicht markieren;mind. ein Ziel vorhanden;Button Erreicht klicken;Status wechselt auf erreicht und Quote steigt;bestanden
+TF-06;Lernziele;Ziel löschen;mind. ein Ziel vorhanden;Löschen klicken;Ziel wird entfernt;bestanden
+TF-07;Planung;Grobplanung anlegen;mind. ein Ziel vorhanden;Planungsebene Grobplanung wählen und speichern;Lernblock erscheint in Sechsmonatsübersicht;bestanden
+TF-08;Planung;Detailplanung anlegen;mind. ein Ziel vorhanden;Planungsebene Detailplanung wählen und speichern;Lernblock erscheint in Monatsplanung;bestanden
+TF-09;Planung;Lernblock erledigen;Lernblock vorhanden;Erledigt klicken;Block wird als erledigt markiert;bestanden
+TF-10;Stoppuhr;Lernzeit erfassen;mind. ein Ziel vorhanden;Stoppuhr starten, pausieren, speichern;Sitzung erscheint in Lernzeitliste;bestanden
+TF-11;Auswertung;Plan-Ist anzeigen;Planungen und Sitzungen vorhanden;Auswertung öffnen;Kennzahlen und Fortschrittsbalken werden angezeigt;bestanden
+TF-12;Erinnerungen;Hinweise anzeigen;kommende Lernblöcke/Ziele vorhanden;Dashboard oder Erinnerungen öffnen;Regelbasierte Hinweise werden angezeigt;bestanden
+TF-13;Daten;JSON exportieren;eingeloggt;Daten & Export öffnen, JSON exportieren;JSON-Datei wird erzeugt;bestanden
+TF-14;Daten;JSON importieren;gültige Exportdatei vorhanden;JSON importieren;Daten werden geladen;bestanden
+TF-15;Build;Produktionsbuild erstellen;Dependencies installiert;npm run build ausführen;dist-Ordner wird erzeugt;bestanden
+TF-16;Planung;Horizon-Validierung;eingeloggt;Lernziel oder Lernblock außerhalb des 6-Monats-Horizonts speichern;System verhindert Speicherung und zeigt Hinweis;bestanden
+TF-17;Erinnerungen;Automatische Regeln deaktivieren;eingeloggt;Erinnerungen öffnen, automatische Regeln deaktivieren und speichern;Hinweisliste wird leer bzw. nicht weiter generiert;bestanden
+TF-18;Erinnerungen;Keine-Erinnerung-Regel;Lernblock vorhanden;Erinnerung „keine“ wählen und speichern;Für diesen Lernblock wird kein Reminder ausgelöst;bestanden
