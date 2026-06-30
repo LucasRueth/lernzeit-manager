@@ -1,12 +1,19 @@
-Datum;Tester:in;Testfall-ID;Umgebung;Ergebnis;Bemerkung
-2026-06-09;Projektteam;TF-01;Chrome-kompatibler Browser;bestanden;Login erfolgreich
+Datum;Tester;Testfall-ID;Umgebung;Ergebnis;Bemerkung
+2026-06-09;Projektteam;TF-01;Chrome-kompatibler Browser;bestanden;Login Student erfolgreich
+2026-06-09;Projektteam;TF-02;Chrome-kompatibler Browser;bestanden;Login Tutor erfolgreich
+2026-06-09;Projektteam;TF-03;Chrome-kompatibler Browser;bestanden;Fehlermeldung bei falschem Passwort angezeigt
 2026-06-09;Projektteam;TF-04;Chrome-kompatibler Browser;bestanden;Lernziel wurde gespeichert
+2026-06-09;Projektteam;TF-05;Chrome-kompatibler Browser;bestanden;Zielstatus wurde auf erreicht gesetzt
+2026-06-09;Projektteam;TF-06;Chrome-kompatibler Browser;bestanden;Lernziel wurde geloescht
 2026-06-09;Projektteam;TF-07;Chrome-kompatibler Browser;bestanden;Grobplanung sichtbar
 2026-06-09;Projektteam;TF-08;Chrome-kompatibler Browser;bestanden;Detailplanung sichtbar
+2026-06-09;Projektteam;TF-09;Chrome-kompatibler Browser;bestanden;Lernblock wurde als erledigt markiert
 2026-06-09;Projektteam;TF-10;Chrome-kompatibler Browser;bestanden;Lernsitzung gespeichert
 2026-06-09;Projektteam;TF-11;Chrome-kompatibler Browser;bestanden;Auswertung aktualisiert
+2026-06-09;Projektteam;TF-12;Chrome-kompatibler Browser;bestanden;Hinweise werden angezeigt
 2026-06-09;Projektteam;TF-13;Chrome-kompatibler Browser;bestanden;Exportdatei erzeugt
+2026-06-09;Projektteam;TF-14;Chrome-kompatibler Browser;bestanden;JSON-Import erfolgreich durchgefuehrt
 2026-06-09;Projektteam;TF-15;Node 22 / npm 10;bestanden;npm run build erfolgreich
 2026-06-09;Projektteam;TF-16;Node 22 / Vitest;bestanden;isWithinPlanningHorizon und sixMonthPlans erfolgreich getestet
 2026-06-09;Projektteam;TF-17;Node 22 / Vitest;bestanden;autoReminder=false liefert keine Hinweise
-2026-06-09;Projektteam;TF-18;Node 22 / Vitest;bestanden;reminderMinutes=0 löst keinen Lernblock-Hinweis aus
+2026-06-09;Projektteam;TF-18;Node 22 / Vitest;bestanden;reminderMinutes=0 loest keinen Lernblock-Hinweis aus
